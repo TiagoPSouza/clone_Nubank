@@ -88,24 +88,34 @@
 .section2-p, .section3-p, .section4-p{
     display: inline-block;
     font-size: 1.3em;
-    margin: 0 100px 30px 30px;
+    margin: 0 100px 20px 30px;
     text-align: justify;
     font-weight: 500;
     line-height: 1.2em;
 }
 
-.section2-link, .section3-link, .section4-link{
-    display: block;
-    margin-left: 30px;
-    color: blueviolet;
+.section-link{
+    border: 1px solid rgb(180, 129, 228);
+    border-radius: 15px;
+    background-color: blueviolet;
+    margin: 10px 0 0 30px;
+    padding: 10px 20px;
     text-decoration: none;
+    font-size: .8em;
     font-weight: 600;
+    color: white;
+}
+
+.section-link:hover{
+    border: 1px solid blueviolet;
+    background-color: rgb(180, 129, 228);
+    color: wheat;
 }
 
 .section2-img{
     display: block;
     max-width: 90vw;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .section4-img{
@@ -131,7 +141,7 @@
     background-size: cover;
 }
 
-.section5-link-main{
+.section5-link-main, .section7-link-main{
     color: whitesmoke;
     font-size: 2em;
     text-decoration: none;
@@ -150,13 +160,7 @@
     width: 250px;
 }
 
-.section5-link{
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    display: block;
-    margin-left: 30px;
-}
+
 
 .section6{
     background-image: url(section6.webp);
@@ -178,9 +182,33 @@
     line-height: 1.2em;
 }
 
-.section6-link{
-    
+.section7{
+    background-image: url(nucomunit.webp);
+    background-position: center;
+    height: 500px;
 }
+
+.section7-p{
+    color: white;
+    text-shadow: 1px 2px black;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 0 100px 20px 30px;
+    text-align: justify;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.section8{
+    background-image: url(central.webp);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 500px;
+    display: inline-block;
+    line-height: 0;
+}
+
+
 
 
 
