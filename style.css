@@ -1,3 +1,5 @@
+
+
 .header{
     background-color: white;
     display: flex;
@@ -203,9 +205,28 @@
     background-image: url(central.webp);
     background-repeat: no-repeat;
     width: 100vw;
-    height: 500px;
+    height: 380px;
+    margin-bottom: 0;
     display: inline-block;
-    line-height: 0;
+}
+
+.section8-p{
+    color: white;
+    text-shadow: 1px 2px black;
+    display: inline-block;
+    font-size: 1.1em;
+    margin: 10px 100px 20px 30px;
+    text-align: justify;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.footer{
+    display: inline-block;
+    margin-top: 0;
+    width: 100vw;
+    background: black;
+    
 }
 
 
