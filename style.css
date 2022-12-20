@@ -225,7 +225,7 @@
     display: inline-block;
     margin-top: 0;
     width: 100vw;
-    background-color: red;
+    background-color: black;
     
 }
 
@@ -251,7 +251,7 @@
 }
 
 .footer-redes{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #808080;
     padding: 0 20px 80px;
 }
 
@@ -276,6 +276,42 @@
     margin: 0 30px;
 }
 
+.container-icon{
+    display: flex;
+    justify-content: baseline;
+}
 
+.container-icon li{
 
+    width: 32px;
+    height: 32px;
+    list-style: none;
+    margin: 0 30px;
+}
 
+.container-icon li a{
+    width: 32px;
+    height: 32px;
+    
+}
+
+.container-icon li a .icon{
+    width: 32px;
+    height: 32px;   
+}
+
+.section-checkbox{
+    padding: 50px;
+    color: white;
+}
+
+.button-main{
+    background-color: blueviolet;
+    display: block;
+    width: 85%;
+    padding: 15px;
+    border-radius: 20px;
+    border: transparent;
+    color: white;
+    margin: 30px auto;
+}
